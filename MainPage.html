@@ -52,27 +52,39 @@
     <th>
       <h3>Let's Find Your Ideal Car</h3>
       <form>
-   <label>Pick your location:-</label>
+   
         
-        <select name="dropdown">
-          <option value="Select">Select</option>
-          <option value="JALANDHAR">JALANDHAR</option>
-        <option value="CHANDIGARH">CHANDIGARH</option>
-          <option value="AMRITSAR">AMRITSAR</option>
-        <option value="LUDHIANA">LUDHIANA</option>
-         <option value="DHARAMSHALA">DHARAMSHALA</option>
-         <br>
-        </select><br>
+    
+            <p>Select Location:-                                                     
+        <select name="location" id="location">
+            <option value="">--Select the location--</option>
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Himachal Pradesh">Himachal Pradesh</option>
+            <option value="Karnataka">Jadavpur University </option>
+            <option value="Manipur">Manipur</option>
+            <option value="New Delhi ">New Delhi</option>
+            <option value="Orisssa">Orissa</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Uttrakhand">Uttrakhand</option>
+            </select>
+    </p>
+
+          
         <br>
         <label> Pick up date:-</label> 
         <input type="date" placeholder="d/m/y">
        
         <label>  Drop of date:-</label>
-      </select>
-    <input type="date" placeholder="d/m/y">
-      <br>
-     <br>
-         <label>Purpose Of Rental:-</label>
+        </select>
+      <input type="date" placeholder="d/m/y">
+        <br>
+       <br>
+         <legend>RENTAL PURPOSE</legend>
+    
          
           
          <input type="radio" id="Business" name="purpose" value="Business">
